@@ -1,5 +1,5 @@
 const mongoose= require('mongoose'); // taking an instance of mongoose
-const mailSender= require('../utils/mailSender'); 
+const mailSender= require('../utils/mailSend'); 
 // Creating a Schema of OTP
 const otpSchema= new mongoose.Schema({
     // defining the Fields in the Schema
